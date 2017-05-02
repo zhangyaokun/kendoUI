@@ -1,0 +1,117 @@
+/*一线看全*/
+@charset "utf-8";
+body{
+    font-size:14px;
+    font-family:'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif;
+}
+.alert{
+    height:80px;
+    position:relative;
+    text-align:center;
+    margin-bottom:15px;
+}
+.alert > span{
+    display: inline-block;
+    font-size:15px
+}
+.alert > span:first-child{
+    width:100%;
+    text-align:left;
+    font-size:18px;
+}
+.alert > span:first-child + span{ margin-top:-15px;}
+.alert > a{
+    position:absolute;
+    right:15px;
+    bottom:10px;
+    display: inline-block;
+    text-align:right;
+    color:#fff;
+}
+.alert > a > i {
+    display:inline-block;
+    margin-left:2px;
+    vertical-align: middle;
+    margin-top:-2px;
+}
+.alert > span > i{
+    font-size:20px;
+    margin-right:10px;
+}
+.alert > span > em,
+.alert > span > a{
+    color:#fff;
+    font-size:24px;
+    padding-left:10px;
+    padding-right:10px;
+    font-style: normal;
+}
+.alert > span > a{
+    cursor: pointer;
+}
+.alert-info{
+    color:#fff;
+    background-color:#0babfd;
+}
+.alert-danger{
+    color:#fff;
+    background-color:#fe7f68;
+}
+.alert-success{
+    color:#fff;
+    background-color: #f67ba6;
+}
+.alert.alert-success > span:first-child{
+    text-align:center;
+    margin-top:12px;
+}
+
+.panel-heading > h6{
+    margin:0;
+    font-size:16px;
+    font-weight:normal;
+}
+
+
+/* 一线看全carousel */
+.carousel{
+    margin-left:100px;
+    margin-right:100px;
+}
+#site-carousel > .item > .col-md-6 > div.row {
+    border:solid 1px #e5e5e5;
+    padding:10px 0;
+    margin:0;
+}
+#site-carousel > .item > .col-md-6 > div.row > .col-md-8{
+    width: 220px;
+    height:200px;
+    overflow:hidden;
+}
+#site-carousel > .item > .col-md-6 > div.row > .col-md-4{
+    width:auto;
+    float:none;
+    display: block;
+    padding-left:220px;
+}
+#site-carousel > .item > .col-md-6 > div.row > .col-md-4 h5,
+#site-carousel > .item > .col-md-6 > div.row > .col-md-4 a{
+    display:inline-block;
+}
+#site-carousel > .item > .col-md-6  .col-md-8 img{
+    width:100%;
+    height:100%;
+}
+#myNiceCarousel .carousel-control{
+    width:40px;
+}
+#myNiceCarousel .carousel-control.left{
+    left:-100px;
+    background:none;
+    color:#353535;
+}
+#myNiceCarousel .carousel-control.right {
+    right:-100px;
+    background:none;
+    color:#353535;
+}
